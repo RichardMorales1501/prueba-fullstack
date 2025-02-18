@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
-
+@CrossOrigin(origins = "https://yellow-chicken-417114.hostingersite.com")
 @RestController
 @RequestMapping("/solicitudes")
 public class SolicitudCreditoController {
